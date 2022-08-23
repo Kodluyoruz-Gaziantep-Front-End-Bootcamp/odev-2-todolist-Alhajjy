@@ -1,0 +1,95 @@
+/* global styles */
+:root{
+    background:rgb(74, 162, 221)
+}
+* {
+    font-family: sans-serif;
+}
+
+
+
+/* container */
+.App{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    background: green;
+}
+
+
+
+/* adding part */
+.adding-part{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.add-button{
+    background: rgb(26, 39, 223);
+    width: 30%;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.add-button:hover{
+    background: rgb(4, 0, 255);
+    transform: scale(1.1);
+}
+.inp{
+    min-width: 70%;
+    height: 25px;
+}
+.inp:focus{
+    transform: scale(1.01);
+}
+.done{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid blue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.done:hover{
+    background: rgb(2, 106, 175);
+}
+.task button{
+    background: rgb(245, 36, 36);
+}
+
+
+
+/* List */
+.list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: rgb(0, 243, 162);
+    width: 50%;
+}
+.task{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.doing-task{
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+/* delete All */
+.clearAll {
+    width: 115px;
+    height: 20px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
