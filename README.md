@@ -1,15 +1,14 @@
-# Week - NULL
-```Hafta veya Ödev Sayısı (NULL değiştir)```
+# Week - 2
 
 # Homework 
-```Ödev```
+### To-do-list
 
 
 ## Homework Description
 
-```Ödev Açıklaması ```
+Basic todo list
 
 
 ## Author
 
-```Ödevi yapan```
+*Muhammed Alhajjy*
